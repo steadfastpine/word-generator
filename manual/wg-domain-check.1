@@ -1,0 +1,27 @@
+.\" Manpage for wg-domain-check.
+.\" Contact contact.scottforsberg@gmail.com.
+.TH man 8 "06 Jun 2019" ".3" "wg-domain-check man page"
+.SH NAME
+wg-domain-check \- determine if a domain is available
+.SH SYNOPSIS
+wg-domain-check [ -i ] [ -a ] [ -v ]
+.SH DESCRIPTION
+This program generates words of various lengths and composition. Types include randomly generated words, and compound words made op of smaller terms.
+.SH OPTIONS
+-i 	input word
+	purpose is to allow input of other switches such as -v
+	example: ./check.sh -v -i test
+
+-a	check words found in ~/.word-generator/words_to_check.txt
+	default setting
+	overrides inididual word input check
+
+-v 	enables verbose output
+
+-? 	display options
+.SH SEE ALSO
+wg-domain-check() 
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Scott Forsberg (contact.scottforsberg@gmail.com)
